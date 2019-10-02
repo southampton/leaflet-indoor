@@ -198,7 +198,7 @@ L.indoor = function(data, options) {
 };
 
 L.Control.Level = L.Control.extend({
-    includes: L.Mixin.Events,
+    includes: L.Evented,
 
     options: {
         position: 'bottomright',
